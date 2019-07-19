@@ -1,10 +1,6 @@
-# TODO #
-
-Migrar para o Bootstrap! Foundation sucks!
-
 # README #
 
-Site utilizado para divulgar projetos e experiência!
+Site utilizado para divulgar portifólio e para testar o que aprendo com HTML/CSS/JS!
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
@@ -12,7 +8,10 @@ This README would normally document whatever steps are necessary to get your app
 
 * Quick summary
 * Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* [Estudar HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [Estudar CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [Estudar JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [Estudar Versionamento](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
