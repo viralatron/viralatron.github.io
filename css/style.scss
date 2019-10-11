@@ -11,12 +11,35 @@ body {
     color: #FFF;
     background-color: #000;
     text-align: center;
+    position: relative;
 }
 article {
-    display: inline;
-    vertical-align: middle;
+    position: absolute;
+    max-width: 768px;
+    top: 50%;
+    transform: translateY(-50%);
+    left:25%;
+    right: 25%;
     h1 {
         margin-top: 0px;
+    }
+    svg{
+        height: 120px;
+        &:not(:last-child){
+            margin-right: 20px;
+        }
+        &:not(:first-child){
+            margin-left: 20px;
+        }
+        &.icon-html{
+            color: #e44d26;
+        }
+        &.icon-css{
+            color: #264de4;
+        }
+        &.icon-js{
+            color: #f7e018;
+        }
     }
 }
 
