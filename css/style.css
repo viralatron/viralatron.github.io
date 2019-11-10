@@ -75,6 +75,15 @@ ul a {
   font-size: 2em;
 }
 
+button.skilltree {
+  border: 5px solid #fff;
+  border-radius: 0;
+  color: #000;
+  font-weight: 600;
+  padding: 20px;
+  background: #f7e018;
+}
+
 @media (max-width: 860px) {
   article {
     left: 10%;
