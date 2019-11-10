@@ -13,9 +13,9 @@ body {
     text-align: center;
     position: relative;
 }
+
 article {
     position: absolute;
-    max-width: 768px;
     top: 50%;
     transform: translateY(-50%);
     left:25%;
@@ -44,13 +44,37 @@ article {
 }
 
 ul {
+    padding-left: 0px;
     li {
         list-style: none;
         display: inline;
+        &:not(:last-child){
+            margin-right: 5px;
+        }
+        &:not(:first-child){
+            margin-left: 5px;
+        }
     }
-    padding-left: 0px;
     a {
+        color: #fff;
         text-decoration: none;
         font-size: 2em;
+    }
+}
+
+
+@media(max-width: 860px){
+    article {
+        left: 10%;
+        right: 10%;
+        svg {
+            height: 100px;
+            &:not(:last-child){
+                margin-right: 5px;
+            }
+            &:not(:first-child){
+                margin-left: 5px;
+            }
+        }
     }
 }

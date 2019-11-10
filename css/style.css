@@ -17,7 +17,6 @@ body {
 
 article {
   position: absolute;
-  max-width: 768px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -62,8 +61,33 @@ ul li {
   display: inline;
 }
 
+ul li:not(:last-child) {
+  margin-right: 5px;
+}
+
+ul li:not(:first-child) {
+  margin-left: 5px;
+}
+
 ul a {
+  color: #fff;
   text-decoration: none;
   font-size: 2em;
+}
+
+@media (max-width: 860px) {
+  article {
+    left: 10%;
+    right: 10%;
+  }
+  article svg {
+    height: 100px;
+  }
+  article svg:not(:last-child) {
+    margin-right: 5px;
+  }
+  article svg:not(:first-child) {
+    margin-left: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
