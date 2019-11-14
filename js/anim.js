@@ -1,5 +1,5 @@
 // fix that
-var elem = '.svg-icon path';
+var elem = '.main__svg path';
 
 var timeline = anime.timeline({
         easing: 'linear',

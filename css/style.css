@@ -1,3 +1,4 @@
+/* http://getbem.com/naming/ for conventions */
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 * {
   font-family: 'Roboto', sans-serif;
@@ -15,7 +16,7 @@ body {
   position: relative;
 }
 
-article {
+.main {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -24,78 +25,83 @@ article {
   right: 25%;
 }
 
-article h1 {
+.main h1 {
   margin-top: 0px;
 }
 
-article svg {
+.main__icons {
+  margin-bottom: 20px;
+}
+
+.main__svg {
   height: 120px;
 }
 
-article svg:not(:last-child) {
+.main__svg:not(:last-child) {
   margin-right: 20px;
 }
 
-article svg:not(:first-child) {
+.main__svg:not(:first-child) {
   margin-left: 20px;
 }
 
-article svg.icon-html {
+.main__svg--html {
   color: #e44d26;
 }
 
-article svg.icon-css {
+.main__svg--css {
   color: #264de4;
 }
 
-article svg.icon-js {
+.main__svg--js {
   color: #f7e018;
 }
 
-ul {
+.main__skilltree {
+  border: 5px solid #fff;
+  border-radius: 0;
+  color: #000;
+  font-weight: 600;
+  font-family: monospace;
+  padding: 20px;
+  background: #f7e018;
+}
+
+.main__list {
   padding-left: 0px;
 }
 
-ul li {
+.main__item {
   list-style: none;
   display: inline;
 }
 
-ul li:not(:last-child) {
+.main__item:not(:last-child) {
   margin-right: 5px;
 }
 
-ul li:not(:first-child) {
+.main__item:not(:first-child) {
   margin-left: 5px;
 }
 
-ul a {
+.main__item a {
   color: #fff;
   text-decoration: none;
   font-size: 2em;
 }
 
-button.skilltree {
-  border: 5px solid #fff;
-  border-radius: 0;
-  color: #000;
-  font-weight: 600;
-  padding: 20px;
-  background: #f7e018;
-}
-
 @media (max-width: 860px) {
-  article {
+  .main {
     left: 10%;
     right: 10%;
   }
-  article svg {
+  .main__svg {
     height: 100px;
   }
-  article svg:not(:last-child) {
+  .main__svg:not(:last-child) {
     margin-right: 5px;
   }
-  article svg:not(:first-child) {
+  .main__svg:not(:first-child) {
     margin-left: 5px;
   }
 }

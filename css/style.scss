@@ -1,3 +1,5 @@
+/* http://getbem.com/naming/ for conventions */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * {
     font-family: 'Roboto', sans-serif;
@@ -14,7 +16,7 @@ body {
     position: relative;
 }
 
-article {
+.main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -23,7 +25,10 @@ article {
     h1 {
         margin-top: 0px;
     }
-    svg{
+    &__icons {
+        margin-bottom: 20px;
+    }
+    &__svg{
         height: 120px;
         &:not(:last-child){
             margin-right: 20px;
@@ -31,21 +36,29 @@ article {
         &:not(:first-child){
             margin-left: 20px;
         }
-        &.icon-html{
+        &--html{
             color: #e44d26;
         }
-        &.icon-css{
+        &--css{
             color: #264de4;
         }
-        &.icon-js{
+        &--js{
             color: #f7e018;
         }
     }
-}
-
-ul {
-    padding-left: 0px;
-    li {
+    &__skilltree {
+        border: 5px solid #fff;
+        border-radius: 0;
+        color: #000;
+        font-weight: 600;
+        font-family: monospace;
+        padding: 20px;
+        background: #f7e018;
+    }
+    &__list {
+        padding-left: 0px;
+    }
+    &__item {
         list-style: none;
         display: inline;
         &:not(:last-child){
@@ -54,28 +67,19 @@ ul {
         &:not(:first-child){
             margin-left: 5px;
         }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 2em;
+        }
     }
-    a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 2em;
-    }
-}
-
-button.skilltree {
-    border: 5px solid #fff;
-    border-radius: 0;
-    color: #000;
-    font-weight: 600;
-    padding: 20px;
-    background: #f7e018;
 }
 
 @media(max-width: 860px){
-    article {
+    .main {
         left: 10%;
         right: 10%;
-        svg {
+        &__svg {
             height: 100px;
             &:not(:last-child){
                 margin-right: 5px;
