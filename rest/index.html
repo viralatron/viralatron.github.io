@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is REST?</title>
+</head>
+<body>
+    <header id="part1">
+        <h1>Microsserviços e REST</h1>
+        <p>O que podemos aprender com eles?</p>
+    </header>
+    <section id="part2">
+        <h2>Monolítico x Microsserviço</h2>
+        <div class="monolith">
+            <strong>Monolítico</strong>
+            <ul>
+                <li>Aplicação única</li>
+                <li>Frontend integrado à App</li>
+                <li>Novas funcionalidades são acrescidas na mesma App</li>
+                <li>Cada vez que for acessar dados de outras Apps, é necessário conectar-se a um novo banco de dados ou duplicar esses dados</li>
+                <li>Em caso de conexão ao banco de dados, a aplicação não necessariamente segue as regras de negócio pertinentes ao banco de dados</li>
+                <li>Desenvolvimento somente em uma linguagem</li>
+            </ul>
+        </div>
+        <div class="microsservices">
+            <strong>Microsserviço</strong>
+            <ul>
+                <li>Aplicação composta de um conjunto de aplicações menores</li>
+                <li>Frontend pode ser desenvolvido fora das aplicações menores</li>
+                <li>Cada vez que haja a necessidade de conectar-se a novos dados, usa-se outra aplicação para a conexão, respeitando as regras de negócios e evitando conectar-se diretamente a outros DBs</li>
+                <li>Abstração da linguagem de programação ao criar novos microsserviços</li>
+                <li>Aplicação única</li>
+            </ul>
+        </div>
+    </section>
+    <section id="part3">
+        <h2>O que é REST</h2>
+        <p>
+            Apresentado em 2000 pela primeira vez, REpresentational State Transfer
+            é um estilo de arquitetura para sistemas distribuídos de hipermídia
+        </p>
+        <p>
+            Ele é guiado por 6 princípios. São eles:
+        </p>
+            <ul>
+                <li><strong>Cliente-Servidor</strong> - Ao separar as preocupações de interface de usuário das preocupações de armazenamento de dados, torna-se possível a portabilidade da interface de usuário através de múltiplas plataformas e da escalabilidade da aplicação ao simplificar os componentes do servidor</li>
+                <li><strong>Stateless</strong> - Cada requisição do cliente para o servidor deve conter todas as informações ncessárias para compreender a requisição e não pode tomar vantagem de qualquer contexto armazenado no servidor. Os dados de sessão são portanto armazenados diretamente com o cliente.</li>
+                <li><strong>Cacheável</strong> - Limitações de cache obrigam que o dado dentro de uma resposta à requisição seja implicitamente ou explicitamente rotulados como cacheavel ou não-cacheavel. Se uma resposta é cacheavel, então o cache do clietne tem direito de reusar os dado dessa resposta anterior para requisições posteriores e equivalentes.</li>
+                <li><strong>Interface Uniforme</strong> - Uma vez projetada a forma como deve ser acessada a API, deve-se seguir à risca essas regras para manter a estrutura das respostas da API uniforme</li>
+                <li><strong>Sistema em Camadas</strong> - O sistema em camadas permite que a arquitetura seja composta de camadas hierárquicas ao delimitar o comportamento do componente de forma que o componente não possa "ver" além da camada imediata com a qual ela está interagindo.</li>
+                <li><strong>Código Sob Demanda</strong> - REST permite que a funcionalidade do cliente seja extendida ao baixar e executar código na forma de scripts (JavaScript, por exemplo). Isso simplifica os clientes ao reduzir o número de funcionalidades necessárias para serem pré-implementados.</li>
+            </ul>
+    </section>
+    <section id="part4">
+        <h2>O que pode ser feito com REST</h2>
+        <p>
+            REST permite desenvolver qualquer aplicação web que tenha todo tipo de operações CRUD.
+            Porém, ao invés de utilizar somente os métodos HTTP GET e POST,
+            é recomendado utilizar cinco métodos, onde cada um é específico para cada tipo de transação
+        </p>
+        <h3>HTTP GET</h3>
+        <p>
+            O método GET é utilizado somente para recuperar dados em <strong>modo de leitura</strong>
+        </p>
+        <p>
+            Exemplos de requisições GET
+        </p>
+        <ul>
+            <li>HTTP GET http://www.appdomain.com/users</li>
+            <li>HTTP GET http://www.appdomain.com/users?size=20&page=5</li>
+            <li>HTTP GET http://www.appdomain.com/users/123</li>
+            <li>HTTP GET http://www.appdomain.com/users/123/address</li>
+        </ul>
+        <h3>HTTP POST</h3>
+        <p>
+            O método POST é utilizado para inserir novos dados através do link do REST.
+        </p>
+        <p>
+            Exemplos de requisições POST
+        </p>
+        <ul>
+            <li>HTTP POST http://www.appdomain.com/users/123</li>
+            <li>HTTP POST http://www.appdomain.com/users/123/accounts/</li>
+        </ul>
+        <h3>HTTP PUT</h3>
+        <p>
+            PUT serve primariamente para atualizar um dado existente da aplicação.
+            Caso esse dado não exista, a aplicação pode decidir se cria um novo dado ou não.
+        </p>
+        <p>
+            Exemplos de requisições PUT
+        </p>
+        <ul>
+            <li>HTTP PUT http://www.appdomain.com/users/123</li>
+            <li>HTTP PUT http://www.appdomain.com/users/123/accounts/456</li>
+        </ul>
+        <h3>HTTP DELETE</h3>
+        <p>
+            DELETE, como o próprio nome já diz, é utilizado para remover dados.
+        </p>
+        <p>
+            Exemplos de requisições DELETE
+        </p>
+        <ul>
+            <li>HTTP DELETE http://www.appdomain.com/users/123</li>
+            <li>HTTP DELETE http://www.appdomain.com/users/123/accounts/456</li>
+        </ul>
+        <h3>HTTP PATCH</h3>
+        <p>
+            Métodos PATCH são utilizados para fazer <strong>atualização parcial</strong> de dados.
+            O PATCH é mais recomendado para atualização parcial e o PUT deve ser usado apenas na substituição completa dos dados.
+        </p>
+        <p>
+            No entanto, o PATCH não é compatível com todos os navegadores, nem servidores.
+            IE8, PHP, Tomcat e Django, por exemplo, não tem implementação ou falta suporte para o método.
+        </p>
+    </section>
+    <section id="part5">
+        <h2>Como adaptar Monolítico para Microsserviço</h2>
+        <p>
+            A transição de uma App Monolítica para Microsserviços pode ser realizada de duas formas:
+        </p>
+        <ul>
+            <li>Abandonar o desenvolvimento da aplicação por completo para poder focar no novo modo de produção</li>
+            <li>Implementar gradualmente microsserviços até que a aplicação principal deixe de existir e passe a ser somente mais um serviço</li>
+        </ul>
+    </section>
+</body>
+</html>
