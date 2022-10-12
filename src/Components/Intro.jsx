@@ -1,9 +1,15 @@
 const Intro = () => {
   return (
-    <header>
-      <small>oi, eu sou</small>
-      <h1>Daniel Amaral e Silva</h1>
-      <h2>e faço páginas web</h2>
+    <header id="intro">
+      <div>
+        <h1>
+          <small>
+            <code>oi, eu sou</code>
+          </small>
+          Daniel Amaral e Silva
+        </h1>
+        <h2>e faço páginas web</h2>
+      </div>
       <p>
         sou um desenvolvedor de software com quase dez anos de experiencia em
         html , css e php/Joomla. atualmente busco recolocação como front-end

@@ -1,7 +1,9 @@
 const ExpProfissional = () => {
   return (
-    <section>
-      <h2>02. Experiência Profissional</h2>
+    <section id="experiencia">
+      <h2>
+        <code>02.</code> Experiência Profissional
+      </h2>
       <p>
         Diga aí! Me chamo Daniel e eu crio coisas em JS como um dos meus
         passatempos.

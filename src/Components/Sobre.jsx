@@ -1,7 +1,9 @@
 const Sobre = () => {
   return (
-    <section>
-      <h2>01. Sobre</h2>
+    <section id="sobre">
+      <h2>
+        <code>01.</code> Sobre
+      </h2>
       <p>
         Diga aí! Me chamo Daniel e eu crio coisas em JS como um dos meus
         passatempos.
@@ -12,10 +14,9 @@ const Sobre = () => {
         seria benéfico para meu fluxo de trabalho.
       </p>
       <p>
-        Desde 2021 eu saí de lá e decidi focar meu tempo em me transformar em um
+        Desde 2021 eu saí de lá e decidi focar meu tempo em me aprimorar como um
         dev front-end e adentrar esse mercado.
       </p>
-      <p>Atualmente minhas habilidades são:SASS JavaScript React HTML Joomla</p>
     </section>
   );
 };

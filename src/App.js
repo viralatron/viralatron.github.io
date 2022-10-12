@@ -1,10 +1,10 @@
 import Intro from "./Components/Intro";
 import Sobre from "./Components/Sobre";
 import ExpProfissional from "./Components/ExpProfissional";
-import Trabalhos from "./Components/Trabalhos";
-import MeiosContato from "./Components/MeiosContato";
+import Projetos from "./Components/Projetos";
+import Contato from "./Components/Contato";
 import Menu from "./Components/Menu";
-
+import "./App.scss";
 function App() {
   return (
     <main className="App">
@@ -12,8 +12,8 @@ function App() {
       <Intro />
       <Sobre />
       <ExpProfissional />
-      <Trabalhos />
-      <MeiosContato />
+      <Projetos />
+      <Contato />
     </main>
   );
 }

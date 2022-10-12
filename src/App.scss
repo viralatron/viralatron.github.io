@@ -1,0 +1,37 @@
+body {
+  --purpura: #413c58;
+  --cinza: #d3d5d7;
+  --verde: #037171;
+  --laranja: #cc9139;
+  color: var(--cinza);
+  background-color: var(--purpura);
+}
+
+h1 {
+  small {
+    display: block;
+  }
+  code {
+    color: var(--laranja);
+  }
+}
+nav {
+  code {
+    color: var(--laranja);
+  }
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  menu {
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    span {
+      color: var(--laranja);
+    }
+    text-decoration: none;
+    color: var(--cinza);
+  }
+}

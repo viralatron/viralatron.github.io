@@ -1,7 +1,9 @@
-const Trabalhos = () => {
+const Projetos = () => {
   return (
-    <section>
-      <h2>03. Trabalhos</h2>
+    <section id="projetos">
+      <h2>
+        <code>03.</code> Projetos
+      </h2>
       <p>
         Diga aí! Me chamo Daniel e eu crio coisas em JS como um dos meus
         passatempos.
@@ -20,4 +22,4 @@ const Trabalhos = () => {
   );
 };
 
-export default Trabalhos;
+export default Projetos;
