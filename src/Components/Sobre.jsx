@@ -1,7 +1,7 @@
 const Sobre = () => {
   return (
-    <section id="sobre">
-      <h2>
+    <section id="sobre" className="sobre">
+      <h2 className={"title decor"}>
         <code>01.</code> Sobre
       </h2>
       <p>
@@ -17,6 +17,11 @@ const Sobre = () => {
         Desde 2021 eu saí de lá e decidi focar meu tempo em me aprimorar como um
         dev front-end e adentrar esse mercado.
       </p>
+      <img
+        className="sobre__profile"
+        src={process.env.PUBLIC_URL + "/profile-pic.webp"}
+        alt="minha foto de perfil"
+      ></img>
     </section>
   );
 };

@@ -1,7 +1,7 @@
 const Contato = () => {
   return (
     <section id="contato">
-      <h2>
+      <h2 className={"title decor"}>
         <code>04.</code> Contato
       </h2>
       <p>

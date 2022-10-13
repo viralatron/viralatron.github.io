@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    code {
+      color: var(--laranja);
+    }
+    &.decor::after {
+      content: url(../../public/topic-line.svg);
+      margin-left: 19px;
+      //   vertical-align: middle;
+    }
+  }
+}

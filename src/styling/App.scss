@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  --purpura: #413c58;
+  --cinza: #d3d5d7;
+  --verde: #037171;
+  --laranja: #cc9139;
+  color: var(--cinza);
+  background-color: var(--purpura);
+}
+
+header,
+section {
+  min-height: calc(100vh - 151px);
+  padding: 151px 42px 0px 42px;
+}
+@import url(Header.scss);
+@import url(Menu.scss);
+@import url(Section.scss);
+@import url(Sobre.scss);

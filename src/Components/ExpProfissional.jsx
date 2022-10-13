@@ -1,7 +1,7 @@
 const ExpProfissional = () => {
   return (
     <section id="experiencia">
-      <h2>
+      <h2 className={"title"}>
         <code>02.</code> Experiência Profissional
       </h2>
       <p>
