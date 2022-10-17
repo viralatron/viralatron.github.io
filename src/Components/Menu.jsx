@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Menu = () => {
   const [menu, setMenu] = useState(false);
@@ -9,13 +9,6 @@ const Menu = () => {
       return menu;
     });
   };
-  let menuClass = "navbar__menu";
-  useEffect(() => {
-    if (menu) {
-      menuClass += " open";
-    }
-    console.log("teste", menuClass);
-  }, [menu]);
 
   return (
     <nav className="navbar">

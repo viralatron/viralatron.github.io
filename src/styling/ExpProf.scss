@@ -1,0 +1,37 @@
+.companies {
+  display: flex;
+  border-bottom: 1px solid #8173c2;
+  width: 100vw;
+  padding: 0px;
+  list-style: none;
+  overflow-y: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  &__button {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+    color: var(--cinza);
+    background: none;
+    border: 0px;
+    font-size: 24px;
+    &.active {
+      color: var(--laranja);
+      border-bottom: 5px solid var(--laranja);
+    }
+  }
+}
+.job {
+  &__cargo {
+    font-size: 1.25rem;
+  }
+  &__periodo {
+    font-size: 1.25rem;
+  }
+  &__attrib {
+    font-size: 1.25rem;
+    &s {
+      padding: 0px;
+      list-style: "- ";
+    }
+  }
+}

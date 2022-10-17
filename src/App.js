@@ -4,7 +4,7 @@ import ExpProfissional from "./Components/ExpProfissional";
 import Projetos from "./Components/Projetos";
 import Contato from "./Components/Contato";
 import Menu from "./Components/Menu";
-import "./styling/App.scss";
+import "./Styling/App.scss";
 function App() {
   return (
     <main className="App">

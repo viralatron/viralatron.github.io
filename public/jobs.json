@@ -1,0 +1,37 @@
+{
+  "experiencias": [
+    {
+      "id": 1,
+      "empresa": "Embasa",
+      "cargo": "Frontend/Web",
+      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "attribs": [
+        "Add and maintain Moodle courses for internal uses;",
+        "Maintain and develop Joomla templates for intranet and extranet websites;",
+        "Internal consultancy for HTML/CSS/JS (Frontend) matters with other developers."
+      ]
+    },
+    {
+      "id": 2,
+      "empresa": "Globo",
+      "cargo": "Palhaço de Rodeio",
+      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "attribs": [
+        "Add and maintain Moodle courses for internal uses;",
+        "Maintain and develop Joomla templates for intranet and extranet websites;",
+        "Internal consultancy for HTML/CSS/JS (Frontend) matters with other developers."
+      ]
+    },
+    {
+      "id": 3,
+      "empresa": "Bandai Namco",
+      "cargo": "Coach de Kazuya Mishima",
+      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "attribs": [
+        "Apanhava mais que mala veia;",
+        "Saía pra comprar colírio para o olho demoníaco dele;",
+        "Pelo menos tinha pausa para cafezinho."
+      ]
+    }
+  ]
+}
