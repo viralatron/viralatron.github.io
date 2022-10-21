@@ -3,6 +3,7 @@
     {
       "id": 1,
       "titulo": "pokedex",
+      "screenshot": "",
       "descricao": "Usando PokéApi, criei uma pokéDex que permite o usuário buscar qualquer pokémon e ver seus detalhes técnicos",
       "tecnologias": ["React", "JSON", "PokeApi"],
       "links": {
