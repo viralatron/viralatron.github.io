@@ -4,7 +4,7 @@ section {
   align-items: center;
   .title {
     code {
-      color: var(--laranja);
+      color: $laranja;
     }
     &.decor::after {
       content: url(../../public/topic-line.svg);

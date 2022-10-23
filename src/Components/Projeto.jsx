@@ -1,7 +1,11 @@
+import { ReactComponent as Github } from "../assets/github.svg";
+import { ReactComponent as Weblink } from "../assets/weblink.svg";
 const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
   return (
     <li className="projeto" key={id}>
-      {screenshot && <img src={screenshot} />}
+      {screenshot && (
+        <img className="projeto__screenshot" src={screenshot} alt={descricao} />
+      )}
       <div className="projeto__descricao">
         <h2>{titulo}</h2>
         <p>{descricao}</p>
@@ -14,14 +18,11 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
         </ul>
       )}
       <div className="projeto__links">
-        <a className="projeto__links--github" href={links.github}>
-          <img src={`${process.env.PUBLIC_URL}/github.svg`} alt="github" />
+        <a className="projeto__links--logo" href={links.github}>
+          <Github />
         </a>
-        <a className="projeto__links--app" href={links.app}>
-          <img
-            src={`${process.env.PUBLIC_URL}/weblink.svg`}
-            alt="app website"
-          />
+        <a className="projeto__links--logo" href={links.app}>
+          <Weblink />
         </a>
       </div>
     </li>

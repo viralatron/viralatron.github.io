@@ -1,0 +1,57 @@
+.projetos {
+  &__list {
+    padding: 0px;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    width: 100vw;
+  }
+}
+.projeto {
+  list-style: none;
+  flex: none;
+  margin-left: 38px;
+  margin-right: 38px;
+  width: calc(100% - 76px);
+  &__screenshot {
+    width: 50%;
+    border-radius: $radius;
+    margin-bottom: 24px;
+  }
+  &__descricao {
+    background-color: $verde;
+    padding: 17px;
+    border-radius: 6px;
+    box-shadow: $sombra;
+    margin-bottom: 24px;
+    h2 {
+      margin-top: 0px;
+      font-weight: 700;
+    }
+  }
+  .tags {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    &__item {
+      background-color: $verde;
+      border-radius: $radius;
+      box-shadow: $sombra;
+      padding: 5px;
+      margin-right: 22px;
+      margin-bottom: 24px;
+    }
+  }
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    .bi {
+      height: 70px;
+      color: $laranja;
+    }
+  }
+}

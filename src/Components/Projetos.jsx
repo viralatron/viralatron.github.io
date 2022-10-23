@@ -22,7 +22,6 @@ const Projetos = () => {
       {projList && (
         <ul className="projetos__list">
           {Object.keys(projList).map((key) => (
-            // <li key={projList[key].id}>{projList[key].titulo}</li>
             <Projeto {...projList[key]} />
           ))}
         </ul>

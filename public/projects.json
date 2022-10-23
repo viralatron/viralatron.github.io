@@ -3,7 +3,18 @@
     {
       "id": 1,
       "titulo": "pokedex",
-      "screenshot": "",
+      "screenshot": "https://github.com/skydoves/Pokedex/raw/main/previews/screenshot.png",
+      "descricao": "Usando PokéApi, criei uma pokéDex que permite o usuário buscar qualquer pokémon e ver seus detalhes técnicos",
+      "tecnologias": ["React", "JSON", "PokeApi"],
+      "links": {
+        "github": "git link",
+        "app": "app link"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "pokedex 2",
+      "screenshot": "https://github.com/skydoves/Pokedex/raw/main/previews/screenshot.png",
       "descricao": "Usando PokéApi, criei uma pokéDex que permite o usuário buscar qualquer pokémon e ver seus detalhes técnicos",
       "tecnologias": ["React", "JSON", "PokeApi"],
       "links": {
