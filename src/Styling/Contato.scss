@@ -1,0 +1,24 @@
+.contato {
+  display: flex;
+  &__text {
+    margin-bottom: 81px;
+  }
+  &__email {
+    border: 3px solid $laranja;
+    border-radius: $radius;
+    color: $laranja;
+    text-decoration: none;
+    padding: 8px 21px;
+    margin-bottom: 81px;
+  }
+  &__externals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    .bi {
+      height: 70px;
+      color: $laranja;
+    }
+  }
+}
