@@ -1,12 +1,20 @@
 .companies {
   display: flex;
   border-bottom: 1px solid #8173c2;
+  align-items: center;
   width: 100vw;
   padding: 0px;
   list-style: none;
-  overflow-y: auto;
-  justify-content: space-evenly;
+  overflow-x: auto;
+  justify-content: flex-start;
   align-items: center;
+  li {
+    flex: none;
+    margin-left: 38px;
+    &:last-of-type {
+      margin-right: 38px;
+    }
+  }
   &__button {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;

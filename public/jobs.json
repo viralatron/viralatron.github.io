@@ -32,6 +32,17 @@
         "Saía pra comprar colírio para o olho demoníaco dele;",
         "Pelo menos tinha pausa para cafezinho."
       ]
+    },
+    {
+      "id": 4,
+      "empresa": "Bandai Namco 2",
+      "cargo": "Coach de Kazuya Mishima",
+      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "attribs": [
+        "Apanhava mais que mala veia;",
+        "Saía pra comprar colírio para o olho demoníaco dele;",
+        "Pelo menos tinha pausa para cafezinho."
+      ]
     }
   ]
 }
