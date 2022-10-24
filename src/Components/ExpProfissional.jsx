@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { findDOMNode } from "react-dom";
 import Job from "./Job";
+import SectionTitle from "./SectionTitle";
 
 const ExpProfissional = () => {
+  const props = { itemNr: "02", title: "Onde Trabalhei" };
   const [Jobs, setJobs] = useState([]);
   const [JobDesc, setJobDesc] = useState();
 
@@ -38,14 +40,11 @@ const ExpProfissional = () => {
     fetchData();
   }, []);
   useEffect(() => {
-    console.log(Jobs);
     if (Jobs.length > 0) setJobButton(Jobs[0].id);
   }, [Jobs]);
   return (
     <section id="experiencia">
-      <h2 className={"title"}>
-        <code>02.</code> Experiência Profissional
-      </h2>
+      <SectionTitle {...props} />
       <menu className="companies" ref={menuRef}>
         {Object.keys(Jobs).map((key) => (
           <li key={Jobs[key].id}>

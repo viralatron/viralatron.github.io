@@ -1,9 +1,11 @@
+import SectionTitle from "./SectionTitle";
+
 const Sobre = () => {
+  const props = { itemNr: "01", title: "Sobre" };
+
   return (
     <section id="sobre" className="sobre">
-      <h2 className={"title decor"}>
-        <code>01.</code> Sobre
-      </h2>
+      <SectionTitle {...props} />
       <p>
         Diga aí! Me chamo Daniel e eu crio coisas em JS como um dos meus
         passatempos.

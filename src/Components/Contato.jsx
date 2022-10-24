@@ -1,11 +1,11 @@
 import { ReactComponent as Github } from "../assets/github.svg";
 import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
+import SectionTitle from "./SectionTitle";
 const Contato = () => {
+  const props = { itemNr: "04", title: "Contato" };
   return (
     <section id="contato" className="contato">
-      <h2 className={"title decor"}>
-        <code>04.</code> Contato
-      </h2>
+      <SectionTitle {...props} />
       <p className="contato__text">
         Atualmente estou disponível para oportunidades de trabalho. Na verdade,
         mesmo se não for uma oportunidade de trabalho, mas um papo descontraído

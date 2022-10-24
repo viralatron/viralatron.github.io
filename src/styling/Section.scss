@@ -3,13 +3,28 @@ section {
   flex-direction: column;
   align-items: center;
   .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__line {
+      display: none;
+    }
     code {
       color: $laranja;
     }
-    &.decor::after {
-      content: url(../../public/topic-line.svg);
-      margin-left: 19px;
-      //   vertical-align: middle;
+  }
+}
+@media screen and (min-width: 768px) {
+  section {
+    .title {
+      &__text {
+        margin-right: 15px;
+      }
+      &__line {
+        display: block;
+      }
     }
   }
 }

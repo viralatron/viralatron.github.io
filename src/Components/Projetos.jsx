@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import Projeto from "./Projeto";
+import SectionTitle from "./SectionTitle";
 
 const Projetos = () => {
+  const props = { itemNr: "03", title: "Projetos" };
   const [projList, setProjetos] = useState([]);
 
   const fetchData = async () => {
@@ -16,9 +18,8 @@ const Projetos = () => {
   console.log(projList);
   return (
     <section id="projetos">
-      <h2 className={"title decor"}>
-        <code>03.</code> Projetos
-      </h2>
+      <SectionTitle {...props} />
+
       {projList && (
         <ul className="projetos__list">
           {Object.keys(projList).map((key) => (
