@@ -5,6 +5,9 @@
     overflow-x: scroll;
     align-items: center;
     width: 100vw;
+    &::-webkit-scrollbar {
+      @include scrollbar;
+    }
   }
 }
 .projeto {
@@ -12,18 +15,19 @@
   flex: none;
   margin-left: 38px;
   margin-right: 38px;
+  margin-bottom: 2rem;
   width: calc(100% - 76px);
   &__screenshot {
     width: 50%;
     border-radius: $radius;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
   &__descricao {
     background-color: $verde;
     padding: 17px;
     border-radius: 6px;
     box-shadow: $sombra;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     h2 {
       margin-top: 0px;
       font-weight: 700;

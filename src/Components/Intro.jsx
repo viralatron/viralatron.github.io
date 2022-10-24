@@ -2,9 +2,7 @@ const Intro = () => {
   return (
     <header id="intro">
       <h1>
-        <small>
-          <code>oi, eu sou</code>
-        </small>
+        <code>oi, eu sou</code>
         Daniel Amaral e Silva
         <small>e faço páginas web</small>
       </h1>

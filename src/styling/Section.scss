@@ -7,13 +7,22 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin-bottom: 1.688rem;
+    &__text {
+      font-size: 2rem;
+      margin: 0px;
+    }
     &__line {
       display: none;
     }
     code {
+      font-size: 1.5rem;
       color: $laranja;
     }
+  }
+  p {
+    font-size: 1.25rem;
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 768px) {

@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <a href="#intro">
+        <a href="#intro" onClick={toggleMenu}>
           <code>daniel amaral</code>
         </a>
       </div>
@@ -75,22 +75,22 @@ const Menu = () => {
       </button>
       <menu className={menu ? "navbar__menu open" : "navbar__menu"}>
         <li>
-          <a href="#sobre">
+          <a href="#sobre" onClick={toggleMenu}>
             <span>01.</span> sobre
           </a>
         </li>
         <li>
-          <a href="#experiencia">
+          <a href="#experiencia" onClick={toggleMenu}>
             <span>02.</span> experiência
           </a>
         </li>
         <li>
-          <a href="#projetos">
+          <a href="#projetos" onClick={toggleMenu}>
             <span>03.</span> projetos
           </a>
         </li>
         <li>
-          <a href="#contato">
+          <a href="#contato" onClick={toggleMenu}>
             <span>04.</span> contato
           </a>
         </li>

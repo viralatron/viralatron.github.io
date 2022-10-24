@@ -4,7 +4,14 @@ $verde: #037171;
 $laranja: #cc9139;
 $sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
 $radius: 6px;
-
+@mixin scrollbar {
+  background-color: #8173c2;
+  height: 0.4rem;
+  &-thumb {
+    background-color: $laranja;
+    border-radius: $radius;
+  }
+}
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -17,8 +24,8 @@ body {
 
 header,
 section {
-  min-height: calc(100vh - 151px);
-  padding: 151px 42px 0px 42px;
+  min-height: calc(100vh - 7.438rem);
+  padding: 8rem 42px 0px 42px;
 }
 @import "Header.scss";
 @import "Menu.scss";
