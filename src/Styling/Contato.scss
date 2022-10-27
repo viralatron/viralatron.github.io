@@ -1,5 +1,7 @@
 .contato {
   display: flex;
+  padding-top: 1.625rem;
+  min-height: calc(100vh - 5.438rem);
   &__text {
     margin-bottom: 81px;
   }

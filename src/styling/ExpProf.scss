@@ -83,9 +83,7 @@
     li {
       flex: none;
       margin-left: 0;
-      &:last-of-type {
-        margin-right: 0;
-      }
+      margin-right: 0px !important;
     }
   }
   .job {

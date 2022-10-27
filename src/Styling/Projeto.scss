@@ -74,10 +74,11 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 70%;
-    margin: auto 15%;
+    margin: 0 15% 2rem 15% !important;
     &__screenshot {
       grid-area: 1 / 1 / 2 / 5;
       width: 100%;
+      max-height: initial;
     }
     &__dados {
       grid-area: 1/3/2/7;
