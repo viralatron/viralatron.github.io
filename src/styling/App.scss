@@ -2,7 +2,7 @@ $purpura: #413c58;
 $cinza: #d3d5d7;
 $verde: #037171;
 $laranja: #cc9139;
-$sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$sombra: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 $radius: 0.375rem;
 @mixin scrollbar {
   background-color: #8173c2;
@@ -45,17 +45,17 @@ section {
 }
 @media screen and (min-width: 1440px) {
   :root {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1920px) {
   :root {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 3840px) {
   :root {
-    font-size: 64px;
+    font-size: 32px;
   }
 }
 @import "Header.scss";

@@ -62,7 +62,7 @@
     justify-content: space-around;
     flex-direction: row;
     .bi {
-      height: 70px;
+      height: 4.375rem;
       color: $laranja;
     }
   }
@@ -81,6 +81,8 @@
       grid-area: 1 / 1 / 2 / 5;
       width: 100%;
       max-height: initial;
+      border: 0.125rem solid $cinza;
+      box-shadow: $sombra;
     }
     &__dados {
       grid-area: 1/3/2/7;
@@ -89,6 +91,13 @@
       flex-wrap: wrap;
       align-items: flex-end;
       justify-content: center;
+    }
+    &__links {
+      &--logo {
+        &:not(:last-of-type) {
+          margin-right: 1.625rem;
+        }
+      }
     }
   }
 }

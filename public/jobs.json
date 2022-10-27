@@ -12,36 +12,15 @@
       ]
     },
     {
-      "id": 2,
-      "empresa": "Globo",
-      "cargo": "Palhaço de Rodeio",
-      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "id": 999,
+      "empresa": "Por Conta Própria",
+      "cargo": "Estudante de Frontend",
+      "periodo": { "de": "06/2012", "ate": "até o momento" },
       "attribs": [
-        "Add and maintain Moodle courses for internal uses;",
-        "Maintain and develop Joomla templates for intranet and extranet websites;",
-        "Internal consultancy for HTML/CSS/JS (Frontend) matters with other developers."
-      ]
-    },
-    {
-      "id": 3,
-      "empresa": "Bandai Namco",
-      "cargo": "Coach de Kazuya Mishima",
-      "periodo": { "de": "06/2012", "ate": "08/2021" },
-      "attribs": [
-        "Apanhava mais que mala veia;",
-        "Saía pra comprar colírio para o olho demoníaco dele;",
-        "Pelo menos tinha pausa para cafezinho."
-      ]
-    },
-    {
-      "id": 4,
-      "empresa": "Bandai Namco 2",
-      "cargo": "Coach de Kazuya Mishima",
-      "periodo": { "de": "06/2012", "ate": "08/2021" },
-      "attribs": [
-        "Apanhava mais que mala veia;",
-        "Saía pra comprar colírio para o olho demoníaco dele;",
-        "Pelo menos tinha pausa para cafezinho."
+        "Desenvolvimento código HTML responsivo;",
+        "Uso de pré-processadores CSS nos projetos;",
+        "Uso de JS ES6 em conjunto com React;",
+        "Estudo constante em busca de certificados."
       ]
     }
   ]
