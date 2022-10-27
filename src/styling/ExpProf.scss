@@ -1,7 +1,13 @@
+.experiencia {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .companies {
   display: flex;
   align-items: center;
-  width: 100vw;
   padding: 0px;
   list-style: none;
   overflow-x: auto;
@@ -10,8 +16,7 @@
   li {
     margin-bottom: 10px;
     flex: none;
-    margin-left: 38px;
-    &:last-of-type {
+    &:not(:last-of-type) {
       margin-right: 38px;
     }
   }
@@ -89,10 +94,5 @@
     &__attribs {
       width: 100%;
     }
-  }
-}
-@media screen and (max-width: 1023px) {
-  .job {
-    padding: 0px 2.5rem;
   }
 }

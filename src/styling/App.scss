@@ -7,6 +7,7 @@ $radius: 6px;
 @mixin scrollbar {
   background-color: #8173c2;
   height: 0.4rem;
+  border-radius: $radius;
   &-thumb {
     background-color: $laranja;
     border-radius: $radius;
@@ -33,6 +34,7 @@ header,
 section {
   min-height: calc(100vh - 7.438rem);
   padding-top: 8rem;
+  @include section-padding;
 }
 @media screen and (min-width: 1024px) {
   header,

@@ -3,7 +3,6 @@ section {
   flex-direction: column;
   align-items: center;
   .title {
-    @include section-padding;
     width: 100%;
     display: flex;
     align-items: center;
@@ -11,7 +10,6 @@ section {
     margin-bottom: 1.688rem;
     &__text {
       font-size: 2rem;
-      line-height: 0px;
       margin: 0px;
     }
     &__line {
