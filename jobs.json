@@ -1,0 +1,27 @@
+{
+  "experiencias": [
+    {
+      "id": 1,
+      "empresa": "Embasa",
+      "cargo": "Frontend/Web",
+      "periodo": { "de": "06/2012", "ate": "08/2021" },
+      "attribs": [
+        "Add and maintain Moodle courses for internal uses;",
+        "Maintain and develop Joomla templates for intranet and extranet websites;",
+        "Internal consultancy for HTML/CSS/JS (Frontend) matters with other developers."
+      ]
+    },
+    {
+      "id": 999,
+      "empresa": "Por Conta Própria",
+      "cargo": "Estudante de Frontend",
+      "periodo": { "de": "06/2012", "ate": "até o momento" },
+      "attribs": [
+        "Desenvolvimento código HTML responsivo;",
+        "Uso de pré-processadores CSS nos projetos;",
+        "Uso de JS ES6 em conjunto com React;",
+        "Estudo constante em busca de certificados."
+      ]
+    }
+  ]
+}
