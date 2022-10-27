@@ -45,22 +45,24 @@ const ExpProfissional = () => {
   return (
     <section id="experiencia">
       <SectionTitle {...props} />
-      <menu className="companies" ref={menuRef}>
-        {Object.keys(Jobs).map((key) => (
-          <li key={Jobs[key].id}>
-            <button
-              type="button"
-              className={compClass}
-              onClick={handleClick}
-              value={Jobs[key].id}
-              key={Jobs[key].id}
-            >
-              {Jobs[key].empresa}
-            </button>
-          </li>
-        ))}
-      </menu>
-      {JobDesc && <Job key={JobDesc.id} {...JobDesc} />}
+      <div className="experiencia__content">
+        <menu className="companies" ref={menuRef}>
+          {Object.keys(Jobs).map((key) => (
+            <li key={Jobs[key].id}>
+              <button
+                type="button"
+                className={compClass}
+                onClick={handleClick}
+                value={Jobs[key].id}
+                key={Jobs[key].id}
+              >
+                {Jobs[key].empresa}
+              </button>
+            </li>
+          ))}
+        </menu>
+        {JobDesc && <Job key={JobDesc.id} {...JobDesc} />}
+      </div>
     </section>
   );
 };

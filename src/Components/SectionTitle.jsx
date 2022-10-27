@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { findDOMNode } from "react-dom";
-import TopicLine from "../assets/TopicLine";
 
 const SectionTitle = ({ itemNr, title }) => {
   const titleRef = useRef(null);
@@ -18,7 +17,7 @@ const SectionTitle = ({ itemNr, title }) => {
       <h2 className={"title__text"}>
         <code>{itemNr}.</code> {title}
       </h2>
-      <TopicLine width={width} />
+      <i className="title__line"></i>
     </div>
   );
 };

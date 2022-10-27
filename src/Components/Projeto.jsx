@@ -6,24 +6,26 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
       {screenshot && (
         <img className="projeto__screenshot" src={screenshot} alt={descricao} />
       )}
-      <div className="projeto__descricao">
+      <div className="projeto__dados">
         <h2>{titulo}</h2>
-        <p>{descricao}</p>
-      </div>
-      {tecnologias && (
-        <ul className="tags">
-          {tecnologias.map((tech) => (
-            <li className="tags__item">{tech}</li>
-          ))}
-        </ul>
-      )}
-      <div className="projeto__links">
-        <a className="projeto__links--logo" href={links.github}>
-          <Github />
-        </a>
-        <a className="projeto__links--logo" href={links.app}>
-          <Weblink />
-        </a>
+        <div className="projeto__descricao">
+          <p>{descricao}</p>
+        </div>
+        {tecnologias && (
+          <ul className="tags">
+            {tecnologias.map((tech) => (
+              <li className="tags__item">{tech}</li>
+            ))}
+          </ul>
+        )}
+        <div className="projeto__links">
+          <a className="projeto__links--logo" href={links.github}>
+            <Github />
+          </a>
+          <a className="projeto__links--logo" href={links.app}>
+            <Weblink />
+          </a>
+        </div>
       </div>
     </li>
   );

@@ -6,7 +6,6 @@
   list-style: none;
   overflow-x: auto;
   justify-content: flex-start;
-  align-items: center;
 
   li {
     margin-bottom: 10px;
@@ -38,6 +37,7 @@
 }
 .job {
   margin-top: 1.625rem;
+
   &__cargo {
     font-size: 1.25rem;
     margin-top: 0px;
@@ -51,11 +51,48 @@
     font-size: 1.25rem;
     margin-bottom: 0.875rem;
     &s {
-      padding: 0px;
-      list-style: "- ";
+      padding: 0px 1.25rem;
     }
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+  .experiencia {
+    &__content {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+  .companies {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+    padding: 0px;
+    margin-right: 2.188rem;
+    margin-top: 0px;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    justify-content: flex-start;
+    li {
+      flex: none;
+      margin-left: 0;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+  .job {
+    margin-top: 0px;
+    width: 70%;
+    &__attribs {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  .job {
+    padding: 0px 2.5rem;
+  }
 }

@@ -22,3 +22,24 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      justify-content: center;
+      &__line {
+        display: none;
+      }
+    }
+    &__text,
+    &__externals {
+      width: calc(100% / 3);
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+}
