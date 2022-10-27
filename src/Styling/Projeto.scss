@@ -30,8 +30,8 @@
   }
   &__descricao {
     background-color: $verde;
-    padding: 17px;
-    border-radius: 6px;
+    padding: 1.125rem;
+    border-radius: $radius;
     box-shadow: $sombra;
     margin-bottom: 1.5rem;
     h2 {
@@ -50,9 +50,11 @@
       background-color: $verde;
       border-radius: $radius;
       box-shadow: $sombra;
-      padding: 5px;
-      margin-right: 22px;
-      margin-bottom: 24px;
+      padding: 0.313rem;
+      &:not(:last-of-type) {
+        margin-right: 1.375rem;
+      }
+      margin-bottom: 1.5rem;
     }
   }
   &__links {

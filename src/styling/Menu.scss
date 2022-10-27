@@ -13,8 +13,7 @@
   padding-right: 1.625rem;
   &__logo {
     font-size: 1.25rem;
-    width: 72px;
-    height: 42px;
+    width: 4.5rem;
     code {
       color: $laranja;
     }
@@ -96,7 +95,7 @@
       li {
         margin-bottom: 0px;
         &:not(:last-of-type) {
-          margin-right: 27px;
+          margin-right: 1.688rem;
         }
       }
       .navbar__button--close {

@@ -2,16 +2,17 @@
   display: flex;
   padding-top: 1.625rem;
   min-height: calc(100vh - 5.438rem);
+  justify-content: flex-start;
   &__text {
-    margin-bottom: 81px;
+    margin-bottom: 2rem;
   }
   &__email {
     border: 3px solid $laranja;
     border-radius: $radius;
     color: $laranja;
     text-decoration: none;
-    padding: 8px 21px;
-    margin-bottom: 81px;
+    padding: 0.5rem 1.313rem;
+    margin-bottom: 2rem;
   }
   &__externals {
     display: flex;
@@ -19,7 +20,7 @@
     justify-content: space-evenly;
     width: 100%;
     .bi {
-      height: 70px;
+      height: 4.375rem;
       color: $laranja;
     }
   }
@@ -29,7 +30,6 @@
   .contato {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     .title {
       justify-content: center;
       &__line {
@@ -42,6 +42,22 @@
     }
     &__text {
       text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contato {
+    &__email {
+      margin-bottom: 1.25rem;
+    }
+    &__text {
+      margin-bottom: 1rem;
+    }
+    &__externals {
+      .bi {
+        height: 3.375rem;
+      }
     }
   }
 }
