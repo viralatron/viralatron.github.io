@@ -4,7 +4,7 @@ import Job from "./Job";
 import SectionTitle from "./SectionTitle";
 
 const ExpProfissional = () => {
-  const props = { itemNr: "02", title: "Onde Trabalhei" };
+  const props = { itemNr: "02", title: "Experiência" };
   const [Jobs, setJobs] = useState([]);
   const [JobDesc, setJobDesc] = useState();
 
