@@ -19,10 +19,18 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
           </ul>
         )}
         <div className="projeto__links">
-          <a className="projeto__links--logo" href={links.github}>
+          <a
+            className="projeto__links--logo"
+            href={links.github}
+            target={"_blank"}
+          >
             <Github />
           </a>
-          <a className="projeto__links--logo" href={links.app}>
+          <a
+            className="projeto__links--logo"
+            href={links.app}
+            target={"_blank"}
+          >
             <Weblink />
           </a>
         </div>
