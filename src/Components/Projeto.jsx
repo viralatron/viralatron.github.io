@@ -23,7 +23,7 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
             className="projeto__links--logo"
             href={links.github}
             target={"_blank"}
-            rel="noreferrer"
+            rel="external"
           >
             <Github />
             <code>Github</code>

@@ -15,18 +15,14 @@ const Contato = () => {
         <code>Email</code>
       </a>
       <div className="contato__externals">
-        <a
-          href="https://github.com/viralatron"
-          target={"_blank"}
-          rel="noreferrer"
-        >
+        <a href="https://github.com/viralatron" target={"_blank"} rel="author">
           <Github />
           <code>Github</code>
         </a>
         <a
           href="https://www.linkedin.com/in/dan-amarals/"
           target={"_blank"}
-          rel="noreferrer"
+          rel="author"
         >
           <Linkedin />
           <code>LinkedIn</code>
