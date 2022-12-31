@@ -17,9 +17,11 @@ const Contato = () => {
       <div className="contato__externals">
         <a href="https://github.com/viralatron">
           <Github />
+          <code>Github</code>
         </a>
         <a href="https://www.linkedin.com/in/dan-amarals/">
           <Linkedin />
+          <code>LinkedIn</code>
         </a>
       </div>
     </section>

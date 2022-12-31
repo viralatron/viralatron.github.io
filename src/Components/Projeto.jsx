@@ -25,6 +25,7 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
             target={"_blank"}
           >
             <Github />
+            <code>Github</code>
           </a>
           <a
             className="projeto__links--logo"
@@ -32,6 +33,7 @@ const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
             target={"_blank"}
           >
             <Weblink />
+            <code>Demo</code>
           </a>
         </div>
       </div>

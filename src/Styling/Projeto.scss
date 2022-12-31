@@ -61,6 +61,16 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    a {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: $laranja;
+      code {
+        margin-top: 0.5rem;
+      }
+    }
     .bi {
       height: 4.375rem;
       color: $laranja;

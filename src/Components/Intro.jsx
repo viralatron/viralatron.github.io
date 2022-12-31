@@ -8,7 +8,7 @@ const Intro = () => {
       </h1>
       <p>
         sou um desenvolvedor de software com quase dez anos de experiência em
-        HTML, CSS e PHP/Joomla. atualmente busco recolocação como front-end
+        HTML, CSS e PHP/Joomla. atualmente busco recolocação como front end
         especializado em React.
       </p>
     </header>
