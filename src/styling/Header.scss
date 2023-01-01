@@ -17,8 +17,9 @@ header {
       color: $laranja;
     }
   }
-  p {
+  h2 {
     font-size: 1.5rem;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -35,7 +36,7 @@ header {
         line-height: 1.875rem;
       }
     }
-    p {
+    h2 {
       line-height: 2.375rem;
       width: 54vw;
     }
