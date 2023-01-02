@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Gerador Aleatório de Citações",
-      "screenshot": "https://raw.githubusercontent.com/viralatron/random-quote-machine/main/screenshot.png",
+      "screenshot": "https://www.danielamaral.dev.br/random-quote-machine/screenshot.png",
       "descricao": "Um gerador de citações aleatório feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
       "tecnologias": ["React", "JSON", "SASS", "Codepen"],
       "links": {
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "titulo": "Editor de Texto Markdown",
-      "screenshot": "https://github.com/viralatron/simple-markdown-editor/raw/dist/screenshot.png",
+      "screenshot": "https://www.danielamaral.dev.br/simple-markdown-editor/screenshot.png",
       "descricao": "Um editor de texto Markdown feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
       "tecnologias": ["React", "SASS", "Codepen"],
       "links": {
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "titulo": "Drum Machine",
-      "screenshot": "https://github.com/viralatron/drum-machine/raw/main/screenshot.jpg",
+      "screenshot": "https://www.danielamaral.dev.br/drum-machine/screenshot.jpg",
       "descricao": "Um reprodutor de samples feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
       "tecnologias": ["React", "SASS", "Codepen"],
       "links": {
