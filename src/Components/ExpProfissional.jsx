@@ -27,9 +27,7 @@ const ExpProfissional = () => {
     });
   };
   const fetchData = async () => {
-    const getData = await fetch(
-      `https://gist.githubusercontent.com/viralatron/d82c8246ef8615fb74d47cc8a9ba4c33/raw/jobs.json`
-    );
+    const getData = await fetch(`${process.env.PUBLIC_URL}/jobs.json`);
     const response = await getData.json();
     setJobs(response.experiencias);
     setJobDesc(response.experiencias[0]);

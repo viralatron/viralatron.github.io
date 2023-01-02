@@ -7,9 +7,7 @@ const Projetos = () => {
   const [projList, setProjetos] = useState([]);
 
   const fetchData = async () => {
-    const getData = await fetch(
-      `https://gist.githubusercontent.com/viralatron/c638b4f83ee0669c0310fe8a32f960d5/raw/projects.json`
-    );
+    const getData = await fetch(`${process.env.PUBLIC_URL}/projects.json`);
     const response = await getData.json();
     setProjetos(response.projetos);
   };
