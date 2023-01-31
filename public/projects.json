@@ -2,6 +2,28 @@
   "projetos": [
     {
       "id": 1,
+      "titulo": "Nectarinatron",
+      "screenshot": "https://www.danielamaral.dev.br/nectarinatron/screenshot.png",
+      "descricao": "Um web radio player 3D feito em Three.Js e com API de áudio do navegador",
+      "tecnologias": ["React", "ThreeJS", "WebAudio API"],
+      "links": {
+        "github": "https://github.com/viralatron/nectarinatron/",
+        "app": "https://www.danielamaral.dev.br/nectarinatron/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Drum Machine",
+      "screenshot": "https://www.danielamaral.dev.br/drum-machine/screenshot.jpg",
+      "descricao": "Um reprodutor de samples feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
+      "tecnologias": ["React", "SASS", "Codepen"],
+      "links": {
+        "github": "https://github.com/viralatron/drum-machine/",
+        "app": "https://www.danielamaral.dev.br/drum-machine/"
+      }
+    },
+    {
+      "id": 3,
       "titulo": "Gerador Aleatório de Citações",
       "screenshot": "https://www.danielamaral.dev.br/random-quote-machine/screenshot.png",
       "descricao": "Um gerador de citações aleatório feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
@@ -12,7 +34,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 4,
       "titulo": "Editor de Texto Markdown",
       "screenshot": "https://www.danielamaral.dev.br/simple-markdown-editor/screenshot.png",
       "descricao": "Um editor de texto Markdown feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
@@ -20,17 +42,6 @@
       "links": {
         "github": "https://github.com/viralatron/simple-markdown-editor",
         "app": "https://www.danielamaral.dev.br/simple-markdown-editor/"
-      }
-    },
-    {
-      "id": 3,
-      "titulo": "Drum Machine",
-      "screenshot": "https://www.danielamaral.dev.br/drum-machine/screenshot.jpg",
-      "descricao": "Um reprodutor de samples feito como tarefa para o curso de bibliotecas FrontEnd do FreeCodeCamp",
-      "tecnologias": ["React", "SASS", "Codepen"],
-      "links": {
-        "github": "https://github.com/viralatron/drum-machine/",
-        "app": "https://www.danielamaral.dev.br/drum-machine/"
       }
     }
   ]
