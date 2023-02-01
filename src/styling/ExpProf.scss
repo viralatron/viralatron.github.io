@@ -1,3 +1,4 @@
+@import "_variables";
 .experiencia {
   &__content {
     display: flex;
@@ -38,26 +39,6 @@
   }
   &::-webkit-scrollbar {
     @include scrollbar;
-  }
-}
-.job {
-  margin-top: 1.625rem;
-
-  &__cargo {
-    font-size: 1.25rem;
-    margin-top: 0px;
-    margin-bottom: 1.313rem;
-  }
-  &__periodo {
-    margin-bottom: 0.875rem;
-    font-size: 1.25rem;
-  }
-  &__attrib {
-    font-size: 1.25rem;
-    margin-bottom: 0.875rem;
-    &s {
-      padding: 0px 1.25rem;
-    }
   }
 }
 

@@ -1,6 +1,7 @@
 import { ReactComponent as Github } from "../assets/github.svg";
 import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
 import SectionTitle from "./SectionTitle";
+import "../Styling/Contato.scss";
 const Contato = () => {
   const props = { itemNr: "04", title: "Contato" };
   return (

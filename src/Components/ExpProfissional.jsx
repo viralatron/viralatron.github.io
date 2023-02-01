@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { findDOMNode } from "react-dom";
 import Job from "./Job";
 import SectionTitle from "./SectionTitle";
+import "../Styling/ExpProf.scss";
 
 const ExpProfissional = () => {
   const props = { itemNr: "02", title: "Experiência" };

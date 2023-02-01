@@ -1,4 +1,5 @@
 import SectionTitle from "./SectionTitle";
+import "../Styling/Sobre.scss";
 
 const Sobre = () => {
   const props = { itemNr: "01", title: "Sobre" };

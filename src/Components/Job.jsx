@@ -1,3 +1,4 @@
+import "../Styling/Job.scss";
 const Job = ({ cargo, periodo, attribs }) => {
   return (
     <div className="job">

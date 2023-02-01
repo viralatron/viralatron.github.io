@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Styling/Menu.scss";
 
 const Menu = () => {
   const [menu, setMenu] = useState(false);

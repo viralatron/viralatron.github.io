@@ -1,5 +1,6 @@
 import { ReactComponent as Github } from "../assets/github.svg";
 import { ReactComponent as Weblink } from "../assets/weblink.svg";
+import "../Styling/Projeto.scss";
 const Projeto = ({ id, titulo, screenshot, descricao, tecnologias, links }) => {
   return (
     <li className="projeto" key={id}>

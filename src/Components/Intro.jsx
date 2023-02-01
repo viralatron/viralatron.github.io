@@ -1,3 +1,4 @@
+import "../Styling/Header.scss";
 const Intro = () => {
   return (
     <header id="intro">

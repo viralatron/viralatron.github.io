@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { findDOMNode } from "react-dom";
+import "../Styling/Section.scss";
 
 const SectionTitle = ({ itemNr, title }) => {
   const titleRef = useRef(null);
