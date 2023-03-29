@@ -6,10 +6,12 @@ html {
 
 * {
   box-sizing: border-box;
+  text-shadow: $sombra-text;
 }
 
 body {
   color: $cinza;
+
   background-color: $purpura;
   &::-webkit-scrollbar {
     @include scrollbar;
@@ -26,7 +28,7 @@ header,
 section {
   min-height: calc(100vh - 7.438rem);
   padding-top: 8rem;
-  @include section-padding;
+  //   @include section-padding;
 }
 @media screen and (min-width: 1024px) {
   header,
@@ -49,6 +51,28 @@ section {
   :root {
     font-size: 32px;
   }
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  perspective: 5000;
+  transform-origin: top right 0px;
+  transform-style: preserve-3d;
+}
+
+.container {
+  bottom: 0;
+  margin: 0 auto;
+  position: fixed;
+  perspective: 5000;
+  transform: translate(80px, 0%) rotateX(50deg) rotateZ(-20deg);
+  transform-style: preserve-3d;
+  top: 0;
+  width: 90vw;
+}
+.space {
+  height: #{60vmin * 5};
 }
 // @import "Header.scss";
 // @import "Menu.scss";

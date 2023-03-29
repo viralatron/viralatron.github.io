@@ -28,6 +28,7 @@
     max-height: 7.2rem;
     border-radius: $radius;
     margin-bottom: 0;
+    box-shadow: $sombra-text;
   }
   &__descricao {
     background-color: $verde;
@@ -75,6 +76,7 @@
     .bi {
       height: 4.375rem;
       color: $laranja;
+      filter: drop-shadow($sombra-text);
     }
   }
 }
