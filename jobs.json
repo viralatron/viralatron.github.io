@@ -12,6 +12,15 @@
       ]
     },
     {
+      "id": 2,
+      "empresa": "Freelance",
+      "cargo": "Frontend/Web",
+      "periodo": { "de": "06/2022", "ate": "até o momento" },
+      "attribs": [
+        "Desenvolvimento de soluções frontend sob encomenda para terceiros."
+      ]
+    },
+    {
       "id": 999,
       "empresa": "Por Conta Própria",
       "cargo": "Estudante de Frontend",
